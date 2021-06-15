@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<header> 
+		<script src="popup.js"></script>
+	</header>
+<body>
+
+<h2>Form</h2>
+<form action="popup.js">
+
+<label for="fname">First name:</label>
+	<input type="text" id="firstname" name="fname"><br>
+<label for="name">Name:</label>
+	<input type="text" id="name" name="name"><br>
+<label for="age">Age:</label>
+	<input type="number" id="age" name="age"> <br>
+<label for="phone">Phone:</label>
+	<input type="tel" id="phone" name="phone"> <br>
+<label for="mail">Mail:</label>
+	<input type="mail" id="email" name="mail"> <br>
+<label for="student"> Student at 42?</label>
+  <input type="checkbox" id="student" name="student"> <br>
+
+
+<label for="male">Male</label>
+	<input type="radio" id="gender_male" name="gender" value="male">
+<label for="female">Female</label>
+ 	<input type="radio" id="gender_female" name="gender" value="female">
+<label for="female">Other</label>
+  <input type="radio" id="gender_other" name="gender" value="other"> <br>
+
+
+<input type="button" onclick="displayFormContents()" value=" Run this sexy Javascript ! ">
+
+</form> 
+
+</body>
+</html>
