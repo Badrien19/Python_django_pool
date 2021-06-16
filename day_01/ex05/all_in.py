@@ -41,7 +41,7 @@ def run(cible):
     liste = cible.split(',')
     for i in liste:
         i = i.rstrip().lstrip().title()
-        if len(i) != 0:
+        if i:
             result = find_match(i)
             if result:
                 print("%s is the capital of %s" % (result['capital'], result['state']))
